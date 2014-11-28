@@ -7,13 +7,20 @@ import org.apache.log4j.LogManager
 import org.apache.log4j.Logger
 import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver
+import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.chrome.ChromeDriverService
 import org.openqa.selenium.firefox.FirefoxDriver
 import org.openqa.selenium.firefox.FirefoxProfile
+import org.openqa.selenium.firefox.internal.ProfilesIni
+// import org.openqa.selenium.firefox.ProfileManager
 import org.openqa.selenium.ie.InternetExplorerDriver
 import org.openqa.selenium.logging.LoggingPreferences
 import org.openqa.selenium.remote.DesiredCapabilities
 import org.openqa.selenium.remote.RemoteWebDriver
+import org.openqa.selenium.TakesScreenshot
+import org.openqa.selenium.OutputType
+import org.openqa.selenium.support.ui.ExpectedConditions
+import org.openqa.selenium.support.ui.WebDriverWait
 import org.openqa.selenium.logging.LogType
 import org.openqa.selenium.remote.CapabilityType
 
@@ -107,8 +114,10 @@ class WebDriverSetup {
 			logger.debug("relying on default value for native events: " + firefoxProfile.areNativeEventsEnabled());
 		}
 
-		WebDriver ffDriver = new FirefoxDriver(caps);
-		return ffDriver;
+//		WebDriver ffDriver = new FirefoxDriver(caps);
+//		return ffDriver;
+                RemoteWebDriver driver = new RemoteWebDriver(new URL("http://127.0.0.1:4444/wd/hub"), caps)
+               return driver
 	}
 
 
