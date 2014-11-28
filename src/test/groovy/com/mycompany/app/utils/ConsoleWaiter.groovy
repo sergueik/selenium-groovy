@@ -1,4 +1,4 @@
-package com.jankester.selenium.test.utils
+package com.mycompany.app.utils
 
 /**
  * File:  ConsoleWaiter.groovy

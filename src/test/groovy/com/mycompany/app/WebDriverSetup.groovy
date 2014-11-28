@@ -1,4 +1,4 @@
-package com.jankester.selenium.test
+package com.mycompany.app
 
 import java.io.File
 import java.util.logging.Level
@@ -25,7 +25,7 @@ import org.openqa.selenium.logging.LogType
 import org.openqa.selenium.remote.CapabilityType
 
 
-import com.jankester.selenium.test.utils.Utils
+import com.mycompany.app.utils.Utils
 import com.opera.core.systems.OperaDriver
 
 

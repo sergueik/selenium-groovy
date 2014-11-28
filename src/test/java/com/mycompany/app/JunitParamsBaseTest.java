@@ -1,4 +1,4 @@
-package com.jankester.selenium.test;
+package com.mycompany.app;
 
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;

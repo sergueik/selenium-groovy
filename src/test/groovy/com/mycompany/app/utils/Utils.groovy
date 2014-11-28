@@ -1,6 +1,6 @@
-package com.jankester.selenium.test.utils;
+package com.mycompany.app.utils;
 
-import com.jankester.selenium.test.SeleniumConstants;
+import com.mycompany.app.SeleniumConstants;
 
 
 
@@ -16,8 +16,8 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.jankester.selenium.test.PropertyHolder;
-import com.jankester.selenium.test.SeleniumConstants;
+import com.mycompany.app.PropertyHolder;
+import com.mycompany.app.SeleniumConstants;
 
 class Utils {
 

@@ -1,14 +1,14 @@
-package com.jankester.selenium.test
+package com.mycompany.app
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.By as By;
-import com.jankester.selenium.test.SeleniumConstants as SeleniumConstants;
+import com.mycompany.app.SeleniumConstants as SeleniumConstants;
 
-import com.jankester.selenium.test.utils.ConsoleWaiter;
-import com.jankester.selenium.test.utils.Utils;
+import com.mycompany.app.utils.ConsoleWaiter;
+import com.mycompany.app.utils.Utils;
 
 class RunSeleniumConsole {
 

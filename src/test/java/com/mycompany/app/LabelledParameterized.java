@@ -1,4 +1,4 @@
-package com.jankester.selenium.test;
+package com.mycompany.app;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

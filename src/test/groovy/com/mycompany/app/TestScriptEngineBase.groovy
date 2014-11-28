@@ -1,4 +1,4 @@
-package com.jankester.selenium.test
+package com.mycompany.app
 
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;
@@ -12,7 +12,7 @@ import org.junit.runner.RunWith
 import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
 
-import com.jankester.selenium.test.utils.Utils
+import com.mycompany.app.utils.Utils
 
 @RunWith(JUnitParamsRunner.class)
 abstract class TestScriptEngineBase {
